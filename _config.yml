@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -291,5 +291,12 @@ defaults:
       share: true
       related: true
       show_data: true
+      toc: true
+      toc_sticky: true
+      toc_label: 목차
+      author_profile: false
+      sidebar:
+          nav: "counts"
+      search: true
 
 data_format: "%Y-%m-%d"
